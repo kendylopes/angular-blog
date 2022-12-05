@@ -5,13 +5,13 @@
 
   <div class="mt-4" id="bigCardTitle">
     <h1 class="text-xl font-bold">
-      <a href="#"> {{ cardTitle }} </a>
+      <a [routerLink]="['content',Id]"> {{ cardTitle }} </a>
     </h1>
   </div>
 
   <div class="mt-3" id="bigCardDescription">
     <p class="text-gray-500">
-      <a href="">{{ cardDescription }}</a>
+      <a [routerLink]="['content',Id]">{{ cardDescription }}</a>
     </p>
   </div>
 </div>
